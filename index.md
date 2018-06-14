@@ -399,16 +399,21 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </div>
     <div class="col-md-4">
       <h4 id="git-macosx">macOS</h4>
-      <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">Video Tutorial</a>
       <p>
-        <strong>For OS X 10.9 and higher</strong>, install Git for Mac
-        by downloading and running the most recent "mavericks" installer from
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
-        After installing Git, there will not be anything in your <code>/Applications</code> folder,
-        as Git is a command line program.
-        <strong>For older versions of OS X (10.5-10.8)</strong> use the
-        most recent available installer labelled "snow-leopard"
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.
+	There are several ways to install Git on a Mac. The easiest is 
+	probably to install the Xcode Command Line Tools. On Mavericks 
+	(10.9) or above you can do this simply by trying to run git 
+	from the Terminal (in the finder applications/utilities/terminal)
+	the very first time.
+       </p>
+       <code>$ git --version</code>
+       <p>
+	If you don’t have git installed already, it will prompt you to install it.
+       </p>
+       <p>
+        If you want a more up to date version, you can also install it 
+	via a binary installer. A macOS Git installer is maintained and 
+	available for download at the Git website, at <a href="http://git-scm.com/download/mac">http://git-scm.com/download/mac</a>.
       </p>
     </div>
     <div class="col-md-4">
